@@ -1,6 +1,8 @@
 package learnCollection;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class StartCode {
     public static void main(String[] args) {
@@ -31,5 +33,17 @@ public class StartCode {
 
 //        check for empty
         System.out.println(names.isEmpty());
+
+//        ###    HashSet
+        HashSet<Double> nms = new HashSet<>();
+        nms.add(14.14);
+        nms.add(234.25);
+        nms.add(4505.20);
+        nms.add(4505.20);
+
+//        nms.add(14);   giving Compilation Error
+
+        System.out.println(nms);
+
     }
 }
