@@ -26,5 +26,10 @@ public class StartCode {
         names.remove("Rahman");
         System.out.println(names);
 
+//        checking for value
+        System.out.println(names.contains("Rahman"));
+
+//        check for empty
+        System.out.println(names.isEmpty());
     }
 }
