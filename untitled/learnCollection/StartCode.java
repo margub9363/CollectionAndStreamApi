@@ -1,8 +1,6 @@
 package learnCollection;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 public class StartCode {
     public static void main(String[] args) {
@@ -44,6 +42,14 @@ public class StartCode {
 //        nms.add(14);   giving Compilation Error
 
         System.out.println(nms);
+
+        TreeSet<Integer> ts = new TreeSet<>();
+        ts.add(12);
+        ts.add(120);
+        ts.add(100);
+        ts.add(400);
+
+        System.out.println(ts);
 
     }
 }
