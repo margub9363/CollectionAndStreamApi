@@ -22,5 +22,9 @@ public class StartCode {
 //        un type safe  - Different types of elements can be added to collection
         ArrayList names1 = new ArrayList();
 
+//        Removing Object
+        names.remove("Rahman");
+        System.out.println(names);
+
     }
 }
